@@ -33,12 +33,13 @@ a { color: #E5E7EB; text-decoration: none; }
 
 .header-img { width: 600px; height: 260px; }
 
-button { cursor: pointer; transition-duration: 0.5s; color: white; background-color: #3882F6; padding: 12px; border-radius: 8px; width: 110px; border: none; margin-top: 12px; font-weight: bold; }
+.signup-button-num1,.signup-button-num2 { cursor: pointer; transition-duration: 0.5s; color: white; background-color: #3882F6; padding: 12px; border-radius: 8px; width: 110px; border: none; margin-top: 12px; font-weight: bolder; }
 
-button:hover {
+.signup-button-num1:hover,.signup-button-num2:hover {
  background-color: white;
  color: blue;
 }
+.signup-button-num2 { border: 2px solid white; }
 
 .title { text-align: center; font-size: 36px; font-weight: 900; color: #1F2937; margin-bottom: 50px;}
 
@@ -46,8 +47,16 @@ button:hover {
 
 .images-text { display: flex; justify-content: center; align-items: center; gap: 35px; margin-bottom: 100px;}
 
-.quote-background { font-size: 36px; font-style: italic; height:600px; margin-bottom: 100px;  background-color: #E5E7EB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px;}
+.quote-background { font-size: 36px; font-style: italic; height:600px; margin-bottom: 130px;  background-color: #E5E7EB; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 10px;}
 
 .quote { width: 900px; font-weight: lighter; }
 
 .quote-owner { align-self: flex-end; width: 900px; font-weight: bolder; }
+
+.container { display: flex; justify-content: center; align-items: center;}
+
+.signup-background { margin-bottom: 100px; display: flex; justify-content: space-around; width: 1020px; background-color: #3882F6; padding: 50px; border-radius: 8px;}
+
+.signup-title { color: white; font-weight: bold; font-size: 28px;}
+
+.signup-text {color: rgba(255, 255, 224, 0.815); font-weight: lighter; font-size: 20px;}
